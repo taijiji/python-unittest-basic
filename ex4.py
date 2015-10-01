@@ -8,4 +8,7 @@ def mod(a, b):
     :param b: 分母
     :returns: 余り
     """
-    return -1
+
+    mod_i = a % b
+
+    return mod_i

@@ -5,4 +5,4 @@ from ex4 import mod
 
 class Ex4Test(TestCase):
     def test_mod(self):
-        pass
+        self.assertEqual(1, mod(5,4))
