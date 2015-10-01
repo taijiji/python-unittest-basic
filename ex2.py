@@ -7,4 +7,4 @@ def reverse(input):
     :param input: 文字列
     :returns: 反対になった文字列
     """
-    return -1
+    return output
