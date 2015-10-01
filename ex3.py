@@ -7,5 +7,8 @@ def min(args):
     :param args: 数列
     :returns: 最も小さな数字
     """
-    return -1
-
+    minimum = args[0]
+    for i in args:
+        if i < minimum:
+            minimum = i
+    return minimum
