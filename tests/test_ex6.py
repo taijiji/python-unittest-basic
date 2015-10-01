@@ -5,4 +5,4 @@ from ex6 import count
 
 class Ex6Test(TestCase):
     def test_count(self):
-        pass
+        self.assertEqual( '1(3) 3(3)', count('1 3 1 1 3 3') )
