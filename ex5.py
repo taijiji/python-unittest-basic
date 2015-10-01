@@ -7,4 +7,11 @@ def unique(args):
     :param args: 数列
     :returns: 重複した数字が消された数列
     """
-    return -1
+    #  NG case
+    #uniq_list = args
+
+    uniq_list = []
+    for i in args :
+        if i not in uniq_list :
+            uniq_list.append(i)
+    return uniq_list
