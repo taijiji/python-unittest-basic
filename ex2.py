@@ -14,8 +14,24 @@ def reverse(input):
     #output = 'gnirts'
 
     output = ''
+    # answer 1
+    '''
     for i in range(0, len(input)):
         #output = output +  str(input[i])
         j = len(input) - i - 1
         output += input[j]
+    '''
+
+    #answer 2
+    '''
+    for i in reversed( range(0, len(input)) ):
+        output += input[i]
+    '''
+
+    #answer 3
+    #output = output.join(reversed(input))
+
+    #anser4
+    output = input[::-1]
+
     return output

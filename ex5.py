@@ -14,4 +14,6 @@ def unique(args):
     for i in args :
         if i not in uniq_list :
             uniq_list.append(i)
-    return uniq_list
+
+    output = sorted(uniq_list)
+    return output
