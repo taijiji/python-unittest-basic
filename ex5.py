@@ -10,10 +10,19 @@ def unique(args):
     #  NG case
     #uniq_list = args
 
+    # answer 1
+    '''
     uniq_list = []
     for i in args :
         if i not in uniq_list :
             uniq_list.append(i)
 
     output = sorted(uniq_list)
+    return output
+    '''
+
+    # answer 2
+    ''
+    s = set(args)
+    output = list(s)
     return output
