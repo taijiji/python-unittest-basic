@@ -13,10 +13,11 @@ def count(input):
     # output = input
 
     output = ''
+
+    # key: charactor, value: counter
     d = {}
 
     # create dictotionay
-    # key: charactor, value: counter
     for s in input:
         if s != ' ' :
             if s not in d.keys() :
