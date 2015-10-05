@@ -32,6 +32,9 @@ def reverse(input):
     #output = output.join(reversed(input))
 
     #anser4
+    # リストスライスの3項目は、インクリメントする数を示す.
+    #[::2]であれば[0],[2],[4],[6]....
+    # [::-1]の場合は、逆向きに 1つずつリストをたどる
     output = input[::-1]
 
     return output

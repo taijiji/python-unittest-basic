@@ -22,7 +22,11 @@ def unique(args):
     '''
 
     # answer 2
-    ''
+    '''
     s = set(args)
     output = list(s)
     return output
+    '''
+
+    # answer3 as one liner
+    return  list(set(args))
